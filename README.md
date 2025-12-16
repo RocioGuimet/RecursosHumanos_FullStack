@@ -37,14 +37,13 @@ Si la base de datos recursos_humanos_db no existe en tu MySQL, se creará autom�
 ### **2. Ejecutar**
 
 La aplicación inicia en http://localhost:8080. Usa estos endpoints:
-
-| Método |Endpoint | Descripción |
-| GET | /rh-app/empleados | Lista todos los empleados |
-|  | |  |
-| GET | /rh-app/empleados/{id} | Obtiene un empleado por ID |
-| POST | /rh-app/empleados | Crea un nuevo empleado |
-| PUT | /rh-app/empleados/{id} | Actualiza un empleado existente |
-| DELETE | /rh-app/empleados/{id} | Elimina un empleado |
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| GET | `/rh-app/empleados` | Lista todos los empleados |
+| GET | `/rh-app/empleados/{id}` | Obtiene un empleado por ID |
+| POST | `/rh-app/empleados` | Crea un nuevo empleado |
+| PUT | `/rh-app/empleados/{id}` | Actualiza un empleado existente |
+| DELETE | `/rh-app/empleados/{id}` | Elimina un empleado |
 
 ### **3. Configuración (opcional)**
 
